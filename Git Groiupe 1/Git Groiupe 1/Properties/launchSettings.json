@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Git Groiupe 1 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Git Groiupe 1 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
