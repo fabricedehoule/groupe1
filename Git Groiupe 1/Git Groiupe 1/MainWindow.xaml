@@ -7,9 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <TextBox >text de remi</TextBox>
-        <TextBox >Test</TextBox>
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Background="LightBlue">
+        <TextBox Text="text de remi" ></TextBox>
+        <TextBox Text="Test"></TextBox>
+        <TextBlock Foreground="Orange" Text="GROS Texte" FontSize="75"></TextBlock>
         <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
     </StackPanel>
 </Window>
