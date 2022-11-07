@@ -9,6 +9,7 @@
 
     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
         <TextBox >text de remi</TextBox>
+        <TextBox >Test</TextBox>
         <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
     </StackPanel>
 </Window>
